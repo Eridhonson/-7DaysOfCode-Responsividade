@@ -1,0 +1,18 @@
+.button {
+    border: none;
+    padding: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.client__contact__video {
+    background-color: var(--light-orange);
+    color: #fff;
+}
+.client__contact__audio {
+    background-color: #fff;
+    border: 1px solid var(--gray);
+}
+.client__contact__adress {
+    background-color: var(--light-blue);
+    color: #fff;
+}

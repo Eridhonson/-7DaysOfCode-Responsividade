@@ -1,0 +1,38 @@
+.day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.client {
+    border-radius: 10px;
+    width: 90%;
+    height: auto;
+    background-color: gainsboro;
+}
+.card--border {
+    border-top: 1px solid var(--gray);
+}
+.client__info {
+    display: grid;
+    grid-template-areas: 
+    "img name side"
+    "icon consultation side";
+}
+.cor {
+    background-color: white;
+}
+.client__info__img {
+    grid-area: img;
+}
+.client__info__name {
+    grid-area: name;
+}
+.client__info__consultation {
+    grid-area: consultation;
+}
+.client__info__icon-consultation {
+    grid-area: icon;
+}
+.client__info__icon-chat {
+    grid-area: side;
+}

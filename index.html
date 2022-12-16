@@ -4,33 +4,221 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/base/normalize.css">
     <link rel="stylesheet" href="./assets/css/base/style.css">
     <link rel="stylesheet" href="./assets/css/layout/layout.css">
+    <link rel="stylesheet" href="./assets/css/layout/header.css">
+    <link rel="stylesheet" href="./assets/css/layout/footer.css">
     <link rel="stylesheet" href="./assets/css/modules/button.css">
+    <link rel="stylesheet" href="./assets/css/modules/card.css">
     <link rel="stylesheet" href="./assets/css/modules/icons.css">
     <title>#7DaysOfCode - Responsividade</title>
 </head>
 <body>
 <header class="header">
+    <img class="header__img" src="./assets/images/perfil-sonia.jpg" alt="Sonia">
     <h1 class="header__user">Olá, Sonia</h1>
     <span class="header__info">Mais 4 consultas hoje</span>
 </header>
-<section class="day"> 
-    <h2 class="day__info">Hoje</h2>
-    <div class="client card">
+<section class="card"> 
+    <h2 class="card__day">Hoje</h2>
+    <!-- Ligar por áudio e vídeo  -->
+    <div class="client card__content">
        <div class="client__info">
-        <img class="tag client__info__img" src="./assets/images/perfil-dias.jpg" alt="Luciana Dias">
-        <h3 class="tag client__info__name">Luciana Dias</h3>
-        <img class="tag client__info__icon-consultation" src="./assets/images/camera.png" alt="Consulta remota">
-        <span class="tag client__info__consultation">Consulta remota</span>
+        <img class="client__info__img" src="./assets/images/perfil-dias.jpg" alt="Luciana Dias">
+        <h3 class="client__info__name">Luciana Dias</h3>
+        <div>
+            <img class="client__info__consultation--icon" src="./assets/images/camera.png" alt="Consulta remota">
+            <span class="client__info__consultation">Consulta remota</span></div>
         <img class="tag client__info__icon-chat" src="./assets/images/chat.png" alt="Chat">
        </div>
        <div class="client__contact card--border">
         <p class="client__contact__time">14:00 - 15:00 (1 hora)</p>
         <button class="client__contact__video button">Ligar por vídeo</button>
         <button class="client__contact__audio button">Ligar por áudio</button>
-       </div>
+        </div>
+    </div>
+    <!--  -->
+    <!-- Ver o endereço -->
+    <div class="client card__content">
+        <div class="client__info">
+         <img class="client__info__img" src="./assets/images/perfil-larissa.jpg" alt="Luciana Dias">
+         <h3 class="client__info__name">Larissa Santana</h3>
+         <div>
+             <img class="client__info__consultation--icon" src="./assets/images/pin.png" alt="Consulta remota">
+             <span class="client__info__consultation">Consulta no local</span></div>
+         <img class="tag client__info__icon-chat" src="./assets/images/chat.png" alt="Chat">
+        </div>
+        <div class="client__contact card--border">
+         <p class="client__contact__time">16:00 - 17:00 - (1 hora)</p>
+         <button class="client__contact__address button">Ver endereço</button>
+        </div>
+    </div>
+    <!--  -->
+    <!-- Ligar por áudio e vídeo  -->
+    <div class="client card__content">
+        <div class="client__info">
+         <img class="client__info__img" src="./assets/images/perfil-marcos.jpg" alt="Luciana Dias">
+         <h3 class="client__info__name">Marcos Correia</h3>
+         <div>
+             <img class="client__info__consultation--icon" src="./assets/images/camera.png" alt="Consulta remota">
+             <span class="client__info__consultation">Consulta remota</span></div>
+         <img class="tag client__info__icon-chat" src="./assets/images/chat.png" alt="Chat">
+        </div>
+        <div class="client__contact card--border">
+         <p class="client__contact__time">17:20 - 18:00 (40 minutos)</p>
+         <button class="client__contact__video button">Ligar por vídeo</button>
+         <button class="client__contact__audio button">Ligar por áudio</button>
+         </div>
+    <!--  -->
+    </div>
+    <h2 class="card__day">Amanhã</h2>
+    <!-- Ver o endereço -->
+    <div class="client card__content">
+            <div class="client__info">
+             <img class="client__info__img" src="./assets/images/perfil-clara.jpg" alt="Luciana Dias">
+             <h3 class="client__info__name">Clara Lemos</h3>
+             <div>
+                 <img class="client__info__consultation--icon" src="./assets/images/pin.png" alt="Consulta remota">
+                 <span class="client__info__consultation">Consulta no local</span></div>
+             <img class="tag client__info__icon-chat" src="./assets/images/chat.png" alt="Chat">
+            </div>
+            <div class="client__contact card--border">
+             <p class="client__contact__time">18:00 - 19:00 - (1 hora)</p>
+             <button class="client__contact__address button">Ver endereço</button>
+            </div>
+    </div>
+    <!--  -->
+        <!-- Ligar por áudio e vídeo  -->
+        <div class="client card__content">
+            <div class="client__info">
+             <img class="client__info__img" src="./assets/images/perfil-dias.jpg" alt="Luciana Dias">
+             <h3 class="client__info__name">Luciana Dias</h3>
+             <div>
+                 <img class="client__info__consultation--icon" src="./assets/images/camera.png" alt="Consulta remota">
+                 <span class="client__info__consultation">Consulta remota</span></div>
+             <img class="tag client__info__icon-chat" src="./assets/images/chat.png" alt="Chat">
+            </div>
+            <div class="client__contact card--border">
+             <p class="client__contact__time">14:00 - 15:00 (1 hora)</p>
+             <button class="client__contact__video button">Ligar por vídeo</button>
+             <button class="client__contact__audio button">Ligar por áudio</button>
+             </div>
+         </div>
+         <!--  -->
+    <!-- Ligar por áudio e vídeo  -->
+    <div class="client card__content">
+        <div class="client__info">
+         <img class="client__info__img" src="./assets/images/perfil-marcos.jpg" alt="Luciana Dias">
+         <h3 class="client__info__name">Marcos Correia</h3>
+         <div>
+             <img class="client__info__consultation--icon" src="./assets/images/camera.png" alt="Consulta remota">
+             <span class="client__info__consultation">Consulta remota</span></div>
+         <img class="tag client__info__icon-chat" src="./assets/images/chat.png" alt="Chat">
+        </div>
+        <div class="client__contact card--border">
+         <p class="client__contact__time">17:20 - 18:00 (40 minutos)</p>
+         <button class="client__contact__video button">Ligar por vídeo</button>
+         <button class="client__contact__audio button">Ligar por áudio</button>
+        </div>
+    <!--  -->
+    </div>
+    <!-- Ver o endereço -->
+     <div class="client card__content">
+        <div class="client__info">
+         <img class="client__info__img" src="./assets/images/perfil-larissa.jpg" alt="Luciana Dias">
+         <h3 class="client__info__name">Larissa Santana</h3>
+         <div>
+             <img class="client__info__consultation--icon" src="./assets/images/pin.png" alt="Consulta remota">
+             <span class="client__info__consultation">Consulta no local</span></div>
+         <img class="tag client__info__icon-chat" src="./assets/images/chat.png" alt="Chat">
+        </div>
+        <div class="client__contact card--border">
+         <p class="client__contact__time">16:00 - 17:00 - (1 hora)</p>
+         <button class="client__contact__address button">Ver endereço</button>
+        </div>
+    </div>
+    <!--  -->
+    </div>
+    <!--  -->
+    <h2 class="card__day">Quarta-feira</h2>
+     <!-- Ver o endereço -->
+     <div class="client card__content">
+        <div class="client__info">
+         <img class="client__info__img" src="./assets/images/perfil-clara.jpg" alt="Luciana Dias">
+         <h3 class="client__info__name">Clara Lemos</h3>
+         <div>
+             <img class="client__info__consultation--icon" src="./assets/images/pin.png" alt="Consulta remota">
+             <span class="client__info__consultation">Consulta no local</span></div>
+         <img class="tag client__info__icon-chat" src="./assets/images/chat.png" alt="Chat">
+        </div>
+        <div class="client__contact card--border">
+         <p class="client__contact__time">18:00 - 19:00 - (1 hora)</p>
+         <button class="client__contact__address button">Ver endereço</button>
+        </div>
+    </div>
+    <!--  -->
+            <!-- Ligar por áudio e vídeo  -->
+            <div class="client card__content">
+                <div class="client__info">
+                 <img class="client__info__img" src="./assets/images/perfil-dias.jpg" alt="Luciana Dias">
+                 <h3 class="client__info__name">Luciana Dias</h3>
+                 <div>
+                     <img class="client__info__consultation--icon" src="./assets/images/camera.png" alt="Consulta remota">
+                     <span class="client__info__consultation">Consulta remota</span></div>
+                 <img class="tag client__info__icon-chat" src="./assets/images/chat.png" alt="Chat">
+                </div>
+                <div class="client__contact card--border">
+                 <p class="client__contact__time">14:00 - 15:00 (1 hora)</p>
+                 <button class="client__contact__video button">Ligar por vídeo</button>
+                 <button class="client__contact__audio button">Ligar por áudio</button>
+                 </div>
+             </div>
+             <!--  -->
+    <!-- Ligar por áudio e vídeo  -->
+    <div class="client card__content">
+        <div class="client__info">
+         <img class="client__info__img" src="./assets/images/perfil-marcos.jpg" alt="Luciana Dias">
+         <h3 class="client__info__name">Marcos Correia</h3>
+         <div>
+             <img class="client__info__consultation--icon" src="./assets/images/camera.png" alt="Consulta remota">
+             <span class="client__info__consultation">Consulta remota</span></div>
+         <img class="tag client__info__icon-chat" src="./assets/images/chat.png" alt="Chat">
+        </div>
+        <div class="client__contact card--border">
+         <p class="client__contact__time">17:20 - 18:00 (40 minutos)</p>
+         <button class="client__contact__video button">Ligar por vídeo</button>
+         <button class="client__contact__audio button">Ligar por áudio</button>
+         </div>
+    <!--  -->
+    </div>
+    <!-- Ver o endereço -->
+     <div class="client card__content">
+        <div class="client__info">
+         <img class="client__info__img" src="./assets/images/perfil-larissa.jpg" alt="Luciana Dias">
+         <h3 class="client__info__name">Larissa Santana</h3>
+         <div>
+             <img class="client__info__consultation--icon" src="./assets/images/pin.png" alt="Consulta remota">
+             <span class="client__info__consultation">Consulta no local</span></div>
+         <img class="tag client__info__icon-chat" src="./assets/images/chat.png" alt="Chat">
+        </div>
+        <div class="client__contact card--border">
+         <p class="client__contact__time">16:00 - 17:00 - (1 hora)</p>
+         <button class="client__contact__address button">Ver endereço</button>
+        </div>
+    </div>
+    <!--  -->
+     </div>
+     <!--  -->
     </div>
 </section>
+<footer class="footer">
+    <nav class="nav">
+        <a class="nav__i nav__consultas" href="#"><img class="img_consultas" src="./assets/images/Calendarioicone.png" alt="Calendário"><br> Consultas</a>
+        <a class="nav__i nav__clientes" href="#"><img class="img_clientes" src="./assets/images/clientesicone.png" alt="Clientes"><br> Clientes</a>
+        <a class="nav__i nav__relatorios" href="#"><img src="#" alt="#"><br> Relatórios</a>
+        <a class="nav__i nav__menu" href="#"><img src="#" alt="#"><br> Menu</a>
+    </nav>
+</footer>
 </body>
 </html>

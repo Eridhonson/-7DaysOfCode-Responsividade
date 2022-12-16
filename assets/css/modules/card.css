@@ -1,0 +1,8 @@
+.card {
+    display: grid;
+}
+.card__content {
+    justify-self: center;
+    background-color: #fff;
+    margin-bottom: 1.5rem;
+}

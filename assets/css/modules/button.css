@@ -10,9 +10,9 @@
 }
 .client__contact__audio {
     background-color: #fff;
-    border: 1px solid var(--gray);
+    border: 1px solid var(--almost-gray);
 }
-.client__contact__adress {
+.client__contact__address {
     background-color: var(--light-blue);
     color: #fff;
 }

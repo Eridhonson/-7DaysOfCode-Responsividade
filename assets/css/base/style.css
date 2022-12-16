@@ -1,5 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 :root {
     --light-orange: #FFB050;
     --light-blue: #4894FF;
-    --gray: #ECECEC;
+    --gray: #A3A3A3;
+    --almost-gray: #E5E5E5;
+}
+
+body {
+    background: linear-gradient(#fff, #E5E5E5);
+    font-family: 'Montserrat', sans-serif;
+    color: #464646;
+    font-weight: 500;
+}
+h1,
+h2,
+h3 {
+    font-weight: 700;
+}
+span {
+    font-weight: 400;
+    color: #A3A3A3;
 }

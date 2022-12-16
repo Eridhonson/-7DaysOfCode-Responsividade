@@ -1,0 +1,41 @@
+.nav__i {
+    text-decoration: none;
+    color: var(--gray);
+}
+.nav {
+    background-color: #fff;
+    padding: 1rem;
+    border: none;
+    border-radius: 20px 20px 0 0;
+    display: grid;
+    grid-template-areas: 
+    'iconconsultas iconclientes iconrelatorios iconmenu'
+    'consulta clientes relatorios menu'
+    ;
+    align-items: center;
+    text-align: center;
+}
+.img_consultas {
+    grid-area: iconconsultas;
+}
+.img_clientes {
+    grid-area: iconclientes;
+}
+.img_relatorios {
+    grid-area: iconrelatorios;
+}
+.img_menu {
+    grid-area: iconmenu;
+}
+.nav__consultas {
+    grid-area: consulta;
+}
+.nav__clientes {
+    grid-area: clientes;
+}
+.nav__relatorios {
+    grid-area: relatorios;
+}
+.nav__menu {
+    grid-area: menu;
+}

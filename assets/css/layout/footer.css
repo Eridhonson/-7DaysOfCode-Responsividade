@@ -1,6 +1,11 @@
-.nav__i {
+.nav__a {
     text-decoration: none;
     color: var(--gray);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
 }
 .nav {
     background-color: #fff;
@@ -12,8 +17,6 @@
     'iconconsultas iconclientes iconrelatorios iconmenu'
     'consulta clientes relatorios menu'
     ;
-    align-items: center;
-    text-align: center;
 }
 .img_consultas {
     grid-area: iconconsultas;
@@ -38,4 +41,13 @@
 }
 .nav__menu {
     grid-area: menu;
+}
+/*  */
+.nav__img {
+    height: 30%;
+    filter: grayscale(200%) opacity(0.4) drop-shadow(0 0 0 var(--gray));
+
+}
+.img_menu {
+    height: 33%;
 }

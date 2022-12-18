@@ -225,11 +225,11 @@
     <form class="form__area" action="">
             <div class="campo">
                 <label for="">Nome do paciente <br></label>
-                <input class="campo__name" type="text" name="name" id="name" placeholder="Nome" required>
+                <input class="campo__name" type="text" name="name" id="name" placeholder="Nome completo" required>
             </div>
         <fieldset class="group">
             <div class="campo">
-                <label class="ltipo" for="tipo">Tipo de consulta:</label>
+                <label class="ltipo" for="tipo">Tipo de consulta <br></label>
                 <select name="tipo" id="tipo" required>
                     <option value="" selected disabled>Selecione</option>
                     <option value="">Consulta remota</option>
@@ -237,17 +237,17 @@
                 </select>
             </div>
             <div class="campo">
-                <label class="ldata" for="data">Data da consulta:</label>
+                <label class="ldata" for="data">Data da consulta <br></label>
                 <input type="date" name="data" id="data" required>
             </div>
             <div class="campo">
-                <label class="lhorario" for="horario">Horário da consulta</label>
+                <label class="lhorario" for="horario">Horário da consulta <br></label>
                 <input type="time" name="horario" id="horario" required>
             </div>
         </fieldset>
         <div class="campo">
             <label for="obs">Observações <br></label>
-            <textarea class="obs" name="obs" id="obs" placeholder="Observações"></textarea>
+            <textarea class="obs" name="obs" id="obs" placeholder=""></textarea>
         </div>
         <button class="button button__form" type="submit">Salvar nova consulta</button>
     </form>

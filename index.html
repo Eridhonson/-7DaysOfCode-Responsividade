@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./assets/css/layout/layout.css">
     <link rel="stylesheet" href="./assets/css/layout/header.css">
     <link rel="stylesheet" href="./assets/css/layout/footer.css">
+    <link rel="stylesheet" href="./assets/css/layout/form.css">
     <link rel="stylesheet" href="./assets/css/modules/button.css">
     <link rel="stylesheet" href="./assets/css/modules/card.css">
     <link rel="stylesheet" href="./assets/css/modules/icons.css">
@@ -145,9 +146,9 @@
     <!--  -->
     </div>
     <!--  -->
-</section>
+    </section>
     <h2 class="card__day">Quarta-feira</h2>
-<section class="card"> 
+    <section class="card"> 
      <!-- Ver o endereço -->
      <div class="client card__content">
         <div class="client__info">
@@ -165,7 +166,7 @@
     </div>
     <!--  -->
             <!-- Ligar por áudio e vídeo  -->
-            <div class="client card__content">
+    <div class="client card__content">
                 <div class="client__info">
                  <img class="client__info__img" src="./assets/images/perfil-dias.jpg" alt="Luciana Dias">
                  <h3 class="client__info__name">Luciana Dias</h3>
@@ -178,9 +179,9 @@
                  <p class="client__contact__time">14:00 - 15:00 (1 hora)</p>
                  <button class="client__contact__video button">Ligar por vídeo</button>
                  <button class="client__contact__audio button">Ligar por áudio</button>
-                 </div>
-             </div>
-             <!--  -->
+        </div>
+    </div>
+    <!--  -->
     <!-- Ligar por áudio e vídeo  -->
     <div class="client card__content">
         <div class="client__info">
@@ -199,7 +200,7 @@
     <!--  -->
     </div>
     <!-- Ver o endereço -->
-     <div class="client card__content">
+    <div class="client card__content">
         <div class="client__info">
          <img class="client__info__img" src="./assets/images/perfil-larissa.jpg" alt="Luciana Dias">
          <h3 class="client__info__name">Larissa Santana</h3>
@@ -218,6 +219,40 @@
      <!--  -->
     </div>
 </section>
+<!--  -->
+<h2 class="form__title">Cadastro</h2>
+<section class="form">
+    <form class="form__area" action="">
+            <div class="campo">
+                <label for="">Nome do paciente <br></label>
+                <input class="campo__name" type="text" name="name" id="name" placeholder="Nome" required>
+            </div>
+        <fieldset class="group">
+            <div class="campo">
+                <label class="ltipo" for="tipo">Tipo de consulta:</label>
+                <select name="tipo" id="tipo" required>
+                    <option value="" selected disabled>Selecione</option>
+                    <option value="">Consulta remota</option>
+                    <option value="">Consulta no local</option>
+                </select>
+            </div>
+            <div class="campo">
+                <label class="ldata" for="data">Data da consulta:</label>
+                <input type="date" name="data" id="data" required>
+            </div>
+            <div class="campo">
+                <label class="lhorario" for="horario">Horário da consulta</label>
+                <input type="time" name="horario" id="horario" required>
+            </div>
+        </fieldset>
+        <div class="campo">
+            <label for="obs">Observações <br></label>
+            <textarea class="obs" name="obs" id="obs" placeholder="Observações"></textarea>
+        </div>
+        <button class="button button__form" type="submit">Salvar nova consulta</button>
+    </form>
+</section>
+<!--  -->
 </main>
 <footer class="footer">
     <nav class="nav">

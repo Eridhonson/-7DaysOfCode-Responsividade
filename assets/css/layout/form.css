@@ -1,0 +1,56 @@
+.form {
+    /* width: 30%; */
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.form__area {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    gap: 1rem;
+}
+.campo {
+
+}
+fieldset {
+    border: 1px solid var(--almost-gray);
+    border-radius: 8px;
+}
+.button__form {
+    background-color: var(--light-blue);
+    color: #fff;
+    width: 100%;
+}
+.campo__name {
+    /* Enabled */
+    padding: .7rem;
+    border: none;
+    border-radius: 8px;
+    width: 90%;
+}
+.campo__name:hover {
+    /* Hover */
+    background-color: gray;
+}
+.campo__name:focus {
+    /* Focused */
+    border-color: var(--light-blue);
+}
+.campo__name::grammar-error {
+    /* Error */
+    border-color: red;
+}
+
+.obs {
+    border: none;
+    border-radius: 8px;
+    width: 95%;
+}
+select,
+input[type=date],
+input[type=time] {
+    width: 40%;
+    height: 2rem;
+}

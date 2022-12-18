@@ -1,4 +1,5 @@
-.card__day {
+.card__day,
+.form__title {
     margin-left: 6%;
 }
 .client {

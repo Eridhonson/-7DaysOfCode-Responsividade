@@ -62,8 +62,8 @@
         align-items: center;
         column-gap: 1.5rem;
     }
-    .nav__a:hover {
-        filter: invert(100%) opacity(10) drop-shadow(0 0 0 #4894FF);
+    .nav__a span:hover {
+        color: var(--light-blue);
     }
     .nav__img {
         justify-self: center;

@@ -223,13 +223,13 @@
 <h2 class="form__title">Cadastro</h2>
 <section class="form">
     <form class="form__area" action="">
-            <div class="campo">
+            <div class="camponame">
                 <label for="">Nome do paciente <br></label>
                 <input class="campo__name" type="text" name="name" id="name" placeholder="Nome completo" required>
             </div>
         <fieldset class="group">
             <div class="campo">
-                <label class="ltipo" for="tipo">Tipo de consulta <br></label>
+                <label class="ltipo" for="tipo">Tipo de consulta:</label>
                 <select name="tipo" id="tipo" required>
                     <option value="" selected disabled>Selecione</option>
                     <option value="">Consulta remota</option>
@@ -237,15 +237,15 @@
                 </select>
             </div>
             <div class="campo">
-                <label class="ldata" for="data">Data da consulta <br></label>
+                <label class="ldata" for="data">Data da consulta:</label>
                 <input type="date" name="data" id="data" required>
             </div>
             <div class="campo">
-                <label class="lhorario" for="horario">Horário da consulta <br></label>
+                <label class="lhorario" for="horario">Horário da consulta:</label>
                 <input type="time" name="horario" id="horario" required>
             </div>
         </fieldset>
-        <div class="campo">
+        <div class="campoarea">
             <label for="obs">Observações <br></label>
             <textarea class="obs" name="obs" id="obs" placeholder=""></textarea>
         </div>
